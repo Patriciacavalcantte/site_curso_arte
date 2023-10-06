@@ -1,4 +1,4 @@
-# Projeto de site de vendas de bicicletas
+# Projeto CS Estudio Arte 
 Site no qual clientes poderiam encomendar bicicletas sob medida.
 
 ## Tecnologias Utilizadas

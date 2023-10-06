@@ -1,8 +1,8 @@
-.bicicleta-bg {
+.curso-bg {
   background-color: var(--cor-11);
 }
 
-.bicicleta {
+.curso {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
@@ -13,33 +13,33 @@
     20px;
 }
 
-.bicicleta-titulo {
+.curso-titulo {
   grid-column: 1 / -1;
 }
 
-.bicicleta-imagens {
+.curso-imagens {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 20px;
 }
 
-.bicicleta-imagens img {
+.curso-imagens img {
   cursor: pointer;
   flex: 1;
   min-width: 200px;
 }
 
-.bicicleta-imagens img:first-child {
+.curso-imagens img:first-child {
   cursor: initial;
   min-width: 100%;
 }
 
-.bicicleta-conteudo > p {
+.curso-conteudo > p {
   margin-bottom: 32px;
 }
 
-.bicicleta-comprar {
+.curso-comprar {
   display: grid;
   grid-template-columns: max-content auto;
   align-items: center;
@@ -48,11 +48,11 @@
   margin-bottom: 40px;
 }
 
-.bicicleta-comprar a {
+.curso-comprar a {
   grid-row: span 2;
 }
 
-.bicicleta-comprar span {
+.curso-comprar span {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -61,66 +61,66 @@
   background-color: var(--cor-12);
 }
 
-.bicicleta-conteudo h2 {
+.curso-conteudo h2 {
   text-transform: uppercase;
   letter-spacing: 0.015em;
   margin-bottom: 12px;
 }
 
-.bicicleta-informacoes,
-.bicicleta-ficha {
+.curso-informacoes,
+.curso-ficha {
   padding: 32px;
   border-radius: 4px;
   background-color: var(--cor-12);
 }
 
-.bicicleta-informacoes {
+.curso-informacoes {
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 32px;
 }
 
-.bicicleta-informacoes img {
+.curso-informacoes img {
   width: 24px;
   margin-bottom: 4px;
 }
 
-.bicicleta-informacoes h3 {
+.curso-informacoes h3 {
   margin-bottom: 8px;
 }
 
-.bicicleta-ficha li {
+.curso-ficha li {
   padding: 4px 0;
   border-bottom: 1px solid var(--cor-11);
   display: flex;
   justify-content: space-between;
 }
 
-.bicicleta-ficha li:last-child {
+.curso-ficha li:last-child {
   border-bottom: none;
 }
 
-.bicicleta-ficha span {
+.curso-ficha span {
   color: var(--cor-6);
 }
 
 @media (max-width: 800px) {
-  .bicicleta {
+  .curso {
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .bicicleta-imagens {
+  .curso-imagens {
     grid-row: 3;
   }
 }
 
 @media (max-width: 400px) {
-  .bicicleta-informacoes {
+  .curso-informacoes {
     grid-template-columns: 1fr;
   }
-  .bicicleta-comprar {
+  .curso-comprar {
     grid-template-columns: 1fr;
   }
 }

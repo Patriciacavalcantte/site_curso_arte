@@ -8,6 +8,9 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
 }
 
 .footer h3 {
@@ -34,6 +37,7 @@
 
 .footer-redes {
   display: flex;
+  justify-content:center;
   gap: 32px;
 }
 

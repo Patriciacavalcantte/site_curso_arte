@@ -22,13 +22,13 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
-/* Biciletas */
-@import "./bicicletas/bicicletas.css";
-@import "./bicicletas/bicicletas-lista.css";
+/* cursos*/
+@import "./cursos/cursos.css";
+@import "./cursos/cursos-lista.css";
 
-/* Bicileta */
-@import "./bicicleta/bicicleta.css";
-@import "./bicicleta/seguro.css";
+/* curs */
+@import "./curso/cursos.css";
+@import "./curso/curso.css";
 
 /* Contato */
 @import "./contato/contato.css";

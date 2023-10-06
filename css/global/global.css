@@ -35,3 +35,12 @@ img {
 img[src$=".jpg"] {
   border-radius: 4px;
 }
+
+img[src$=".jpeg"] {
+  border-radius: 4px;
+}
+
+img[src$=".png"] {
+  border-radius: 4px;
+}
+

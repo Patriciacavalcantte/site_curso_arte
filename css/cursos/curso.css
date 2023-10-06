@@ -1,12 +1,12 @@
-.bicicletas-bg:nth-child(odd) {
+.curso-bg:nth-child(odd) {
   background-image: linear-gradient(
     to right,
     var(--cor-0) 30%,
-    var(--cor-11) 0%
+    var(--cor-12) 0%
   );
 }
 
-.bicicletas {
+.curso {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -15,15 +15,15 @@
   background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
-.bicicletas-imagem {
+.curso-imagem {
   display: grid;
 }
 
-.bicicletas-imagem img {
+.curso-imagem img {
   grid-area: 1/1;
 }
 
-.bicicletas-imagem span {
+.curso-imagem span {
   grid-area: 1/1;
   place-self: start end;
   margin-top: 20px;
@@ -32,22 +32,22 @@
   background-color: var(--cor-12);
 }
 
-.bicicletas-conteudo {
+.curso-conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-content: start;
 }
 
-.bicicletas h2,
-.bicicletas p {
+.curso h2,
+.curso p {
   grid-column: 1 / -1;
 }
 
-.bicicletas h2 {
+.curso h2 {
   margin-bottom: 20px;
 }
 
-.bicicletas h2::before {
+.curso h2::before {
   content: "";
   display: block;
   width: 12px;
@@ -56,55 +56,55 @@
   margin-bottom: 8px;
 }
 
-.bicicletas p {
+.curso p {
   margin-bottom: 32px;
 }
 
-.bicicletas a {
+.curso a {
   place-self: end;
 }
 
-.bicicletas ul {
+.curso ul {
   display: grid;
   gap: 16px;
 }
 
-.bicicletas li {
+.curso li {
   display: flex;
   align-items: center;
 }
 
-.bicicletas-conteudo img {
+.curso-conteudo img {
   width: 24px;
   height: 24px;
   margin-right: 8px;
 }
 
 @media (max-width: 800px) {
-  .bicicletas-bg:nth-child(odd) {
+  .curso-bg:nth-child(odd) {
     background-image: none;
     background-color: var(--cor-11);
   }
-  .bicicletas {
+  .curso {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
-  .bicicletas-conteudo {
+  .curso-conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicletas ul {
+  .curso ul {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
   }
-  .bicicletas a {
+  .curso a {
     place-self: start;
   }
 }
 
 @media (max-width: 600px) {
-  .bicicletas ul {
+  .curso ul {
     font-size: 1rem;
   }
 }
